@@ -2,6 +2,7 @@ require 'oracle_of_bacon'
 
 require 'fakeweb'
 require 'debugger'
+require 'rspec/its'
 
 describe OracleOfBacon do
   before(:all) { FakeWeb.allow_net_connect = false }
